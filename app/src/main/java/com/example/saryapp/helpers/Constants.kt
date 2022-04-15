@@ -12,7 +12,8 @@ object Constants {
     const val PLATFORM_HEADER_NAME = "Platform"
     const val PLATFORM_HEADER_VALUE = "FLAGSHIP"
     const val AUTHORIZATION_HEADER_NAME = "Authorization"
-    const val AUTHORIZATION_HEADER_VALUE = "token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjgxNTEyLCJ1c2VyX3Bob25lIjoiOTY2NTkxMTIyMzM0In0.phRQP0e5yQrCVfZiN4YlkI8NhXRyqa1fGRx5rvrEv0o"
+    const val AUTHORIZATION_HEADER_VALUE =
+        "token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjgxNTEyLCJ1c2VyX3Bob25lIjoiOTY2NTkxMTIyMzM0In0.phRQP0e5yQrCVfZiN4YlkI8NhXRyqa1fGRx5rvrEv0o"
 
     // URLs.
     const val SARY_STAGING_BASE_URL = "https://staging.sary.to"
