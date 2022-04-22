@@ -52,7 +52,7 @@ class HomeActivity : AppCompatActivity() {
 
                     imageSlider.setItemClickListener(object : ItemClickListener {
                         override fun onItemSelected(position: Int) {
-                            val link = dataWrapper.result!![position].link
+                            val link = bannersList[position].imageUrl
                             Toast.makeText(this@HomeActivity, link, Toast.LENGTH_LONG).show()
                         }
                     })

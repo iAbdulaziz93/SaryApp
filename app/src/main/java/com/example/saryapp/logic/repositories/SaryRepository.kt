@@ -7,9 +7,7 @@ import com.example.saryapp.logic.network.sary.services.banner.BannerService
 import com.example.saryapp.logic.network.sary.services.catalog.CatalogService
 import retrofit2.Response
 import javax.inject.Inject
-import javax.inject.Singleton
 
-@Singleton
 class SaryRepository @Inject constructor(apiFactory: ApiFactory) {
 
     private val mBannerService = apiFactory.saryApi.create(BannerService::class.java)
